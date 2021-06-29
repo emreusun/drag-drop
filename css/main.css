@@ -1,0 +1,269 @@
+.hidden
+{
+	display: none;
+
+}
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+	font-family: 'Roboto','sans-serif';
+}
+
+#wraper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+header{
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
+
+
+.container{
+
+	width: 100%;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center
+}
+
+.aquarius_sketch{
+	fill: #fff;
+	animation: sketch 2s ease-in-out infinite alternate;
+	}
+
+	@keyframes sketch{
+        from{
+              transform: rotateZ(0deg);
+        }
+
+        to{
+              transform: rotateZ(5deg);
+        }
+      }
+
+div img{
+	width: 300px;
+	height: 300px;
+}
+
+footer{
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+	justify-content: center;
+	text-align: center;
+}
+
+.icon_holder{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: start;
+}
+.icon_holder div {
+	width: 500px;
+	margin-top: 20px;
+	margin-left: 200px;
+} 
+
+.icon_holder p {
+	font-size: 20px;
+	color: white;
+}
+
+
+.icon_holder h2{
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+.icon_holder h3{
+	font-size: 25px;
+	color: white;
+}
+
+
+
+
+.icon_holder:nth-child(1) h2{
+	color:#4a92d5;
+
+}
+.icon_holder:nth-child(2) h2{
+	color:#e9910d;
+
+}
+.icon_holder:nth-child(3) h2{
+	color:#6cd5c7;
+
+}
+
+.icon_holder:nth-child(4) h2{
+	color:#c5603d;
+
+}
+.icon_holder:nth-child(5) h2{
+	color:#7d7d7d;
+
+}
+.icon_holder:nth-child(6) h2{
+	color:#417c52;
+
+}
+.icon_holder:nth-child(7) h2{
+	color:#d22719;
+
+}
+.icon_holder:nth-child(8) h2{
+	color:#a0b000;
+
+}
+.icon_holder:nth-child(9) h2{
+	color:#65338f;
+
+}
+.icon_holder:nth-child(10) h2{
+	color:#e6847d;
+
+}
+.icon_holder:nth-child(11) h2{
+	color:#e05048;
+
+}
+.icon_holder:nth-child(12) h2{
+	color:#7778bb;
+
+}
+
+
+#welcometext path:nth-child(2){
+	stroke-dasharray: 480px;
+	stroke-dashoffset: 480px;
+	animation: line-anim 2s ease forwards;
+	animation:
+}
+
+#welcometext path:nth-child(3){
+	stroke-dasharray: 527px;
+	stroke-dashoffset: 527px;
+	animation: line-anim 2s ease forwards 0.3s;
+}
+
+#welcometext path:nth-child(4){
+	stroke-dasharray: 605px;
+	stroke-dashoffset: 605px;
+	animation: line-anim 2s ease forwards 0.6s;
+}
+
+#welcometext path:nth-child(5){
+	stroke-dasharray: 533px;
+	stroke-dashoffset: 533px;
+	animation: line-anim 2s ease forwards 0.9s;
+}
+
+#welcometext path:nth-child(6){
+	stroke-dasharray: 363px;
+	stroke-dashoffset: 363px;
+	animation: line-anim 2s ease forwards 1.2s;
+}
+
+#welcometext path:nth-child(7){
+	stroke-dasharray: 525px;
+	stroke-dashoffset: 525px;
+	animation: line-anim 2s ease forwards 1.5s;
+}
+#welcometext path:nth-child(8){
+	stroke-dasharray: 328px;
+	stroke-dashoffset: 328px;
+	animation: line-anim 2s ease forwards 1.8s;
+}
+
+#welcometext path:nth-child(9){
+	stroke-dasharray: 328px;
+	stroke-dashoffset: 328px;
+	animation: line-anim 2s ease forwards 2.1s;
+}
+
+#welcometext path:nth-child(10){
+	stroke-dasharray: 495px;
+	stroke-dashoffset: 495px;
+	animation: line-anim 2s ease forwards 2.4s;
+}
+#welcometext path:nth-child(11){
+	stroke-dasharray: 363px;
+	stroke-dashoffset: 363px;
+	animation: line-anim 2s ease forwards 2.7s;
+}
+
+#welcometext path:nth-child(12){
+	stroke-dasharray: 231px;
+	stroke-dashoffset: 231px;
+	animation: line-anim 2s ease forwards 3s;
+}
+
+#welcometext path:nth-child(13){
+	stroke-dasharray: 527px;
+	stroke-dashoffset: 527px;
+	animation: line-anim 2s ease forwards 3.3s;
+}
+
+#welcometext path:nth-child(14){
+	stroke-dasharray: 605px;
+	stroke-dashoffset: 605px;
+	animation: line-anim 2s ease forwards 3.6s;
+}
+
+#welcometext path:nth-child(15){
+	stroke-dasharray: 533px;
+	stroke-dashoffset: 533px;
+	animation: line-anim 2s ease forwards 3.9s infinite;
+}
+
+@keyframes line-anim {
+	to{
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+
+/*for more hover effect*/
+
+
+#Aquarius:hover {cursor: pointer;filter: invert(1);}
+#Pisces:hover {cursor: pointer;filter: invert(1);}
+#Aries:hover {cursor: pointer;filter: invert(1);}
+#Taurus:hover {cursor: pointer;filter: invert(1);}
+#Gemini:hover {cursor: pointer;filter: invert(1);}
+#Cancer:hover {cursor: pointer;filter: invert(1);}
+#Leo:hover {cursor: pointer;filter: invert(1);}
+#Virgo:hover {cursor: pointer;filter: invert(1);}
+#Libra:hover {cursor: pointer;filter: invert(1);}
+#Scorpio:hover {cursor: pointer;filter: invert(1);}
+#Sagittarius:hover {cursor: pointer;filter: invert(1);}
+#Capricorns:hover {cursor: pointer;filter: invert(1);}
+
+
+
+
+
+
+
+
+
+
+
+
+

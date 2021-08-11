@@ -37,6 +37,7 @@
 		function draggedOver(event) {
 			event.preventDefault();
 			console.log('dragging over drop zone elements');
+			console.log()
 		}
 
 		function dropped(event) {
